@@ -15,7 +15,7 @@ main()
 		{
 			u++;
 		}
-		if(pass[i]>=97 && pass[i]<=122)
+		else if(pass[i]>=97 && pass[i]<=122)
 		{
 			l++;
 		}
@@ -29,7 +29,7 @@ main()
 		}
 	}
 	
-	if(u>0 && d>0 && l>0 && length>=6)
+	if(u>0 && d>0 && s>0 && l>0 && length>=6)
 	{
 		printf("your password is strong..");
 	}
