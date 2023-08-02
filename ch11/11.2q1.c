@@ -32,9 +32,7 @@ void main()
 	{
 		t[n-i-1]=&a[i];
 	}
-	
-	
-	
+
 	for(i=0; i<n; i++)
 	{
 		printf("a[%d]: %d\n",i,*t[i]);
